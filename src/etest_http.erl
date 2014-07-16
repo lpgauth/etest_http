@@ -5,7 +5,6 @@
 
 
 % Erlangs built-in HTTP client requires inets to be running to operate.
--on_load (init/0).
 init() -> inets:start(), ok.
 
 
